@@ -1,5 +1,7 @@
 * {
   /* border-top: 5px solid red; */
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -34,15 +36,18 @@ h1 {
 
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 
 h3 {
   font-size: 30px;
+  margin-bottom: 20px;
 }
 
 h4 {
   font-size: 20px;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 h5 {
@@ -54,10 +59,12 @@ h5 {
 p {
   font-size: 20px;
   line-height: 1.5;
+  margin-bottom: 15px;
 }
 
 li {
   font-size: 20px;
+  margin-bottom: 10px;
 }
 /* 
 footer p {
@@ -105,6 +112,14 @@ ol {
 
 .main-header {
   background-color: #f7f7f7;
+  /* padding: 20px; */
+  /* padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px; */
+  /* padding: 10px 20px; */
+  padding: 20px 40px;
+  margin-bottom: 60px;
 }
 
 aside {
@@ -117,6 +132,8 @@ aside {
   border: 5px solid #1098ad;
   border-left: none;
   border-right: none;
+  padding: 50px 0;
+  width: 500px;
 }
 
 /* .first-li {
@@ -165,4 +182,30 @@ a:hover {
 a:active {
   background-color: #000;
   font-style: italic;
+}
+
+ul,
+ol {
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+.post-header {
+  margin-bottom: 40px;
+}
+
+.post-img {
+  /* width: 800px; */
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
