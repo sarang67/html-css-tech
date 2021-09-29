@@ -36,7 +36,7 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 35px;
   margin-bottom: 30px;
 }
 
@@ -240,4 +240,44 @@ button {
   /* left: 50px;*/
   bottom: 50px;
   right: 50px;
+}
+
+/* .book {
+  font-style: normal;
+} */
+
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+/* p::first-line {
+  color: red;
+} */
+
+h2::first-letter {
+  /* color: gray;
+  font-size: 150px; */
+}
+
+/* after and before pesudo element */
+h2::before {
+  content: "TOP";
+  color: #444;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #ffe70e;
+  /* position: relative;
+  bottom: 30px;
+  left: 30px; */
+
+  position: absolute;
+  right: -38px;
+  bottom: 30px;
+}
+
+h2 {
+  position: relative;
 }
