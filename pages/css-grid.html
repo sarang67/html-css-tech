@@ -14,7 +14,7 @@
       }
       .el--3 {
         background-color: green;
-        height: 150px;
+        /* height: 150px; */
       }
       .el--4 {
         background-color: goldenrod;
@@ -40,6 +40,22 @@
         margin: 40px;
 
         /* CSS GRID */
+        display: grid;
+        /* grid-template-columns: 200px 200px 100px 100px; */
+        /* grid-template-columns: 200px 200px 100px 1fr; */
+        /* grid-template-columns: 200px 200px 1fr 1fr; */
+        /* grid-template-columns: 200px 200px 1fr 1fr; */
+        /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+        /* grid-template-columns: 1fr auto 1fr auto; */
+        /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+        grid-template-columns: repeat(4, 1fr);
+
+        /* grid-template-rows: 300px 200px; */
+        height: 500px;
+        grid-template-rows: 1fr 1fr;
+        /* gap: 30px; */
+        column-gap: 30px;
+        row-gap: 60px;
       }
 
       .container--2 {
@@ -53,6 +69,7 @@
         height: 600px;
 
         /* CSS GRID */
+        display: none;
       }
     </style>
   </head>
